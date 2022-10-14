@@ -1,6 +1,8 @@
 .main-bar {
-  width: calc(100% -350px - 28px);
-  float: left;
+/*    width: calc(100% -300px - 24px);
+ */  
+ width: 68%;
+ float: left;
   margin: 25px 0;
   padding: 0;
 }
@@ -71,6 +73,12 @@
   flex-wrap: wrap;
 }
 
+.display-tags-time {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
 .display-tags-time .display-tags p {
   margin: 2px;
   padding: 4px;
@@ -81,11 +89,4 @@
 
 .display-tags-time .display-time {
   font-size: 13px;
-}
-
-.display-tags-time {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
 }
